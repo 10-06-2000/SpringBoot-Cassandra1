@@ -1,0 +1,4 @@
+[
+  "com/bezkoder/spring/data/cassandra/controller",
+  "com/bezkoder/spring/data/cassandra/model"
+]

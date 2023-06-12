@@ -1,0 +1,14 @@
+[
+  {
+    "caller": "HTTP server requests->DELETE /api/tutorials/{id}",
+    "callee": "com/bezkoder"
+  },
+  {
+    "caller": "HTTP server requests->GET /api/tutorials/",
+    "callee": "com/bezkoder"
+  },
+  {
+    "caller": "HTTP server requests->POST /api/tutorials/",
+    "callee": "com/bezkoder"
+  }
+]

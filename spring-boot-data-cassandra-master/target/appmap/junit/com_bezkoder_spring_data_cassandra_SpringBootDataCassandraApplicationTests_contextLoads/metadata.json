@@ -1,0 +1,24 @@
+{
+  "name": "Spring boot data cassandra applications context loads",
+  "app": "spring-boot-data-cassandra-master",
+  "language": {
+    "name": "java",
+    "version": "17.0.6+9-LTS-190",
+    "engine": "Java HotSpot(TM) 64-Bit Server VM"
+  },
+  "client": {
+    "name": "appmap-java",
+    "url": "https://github.com/appland/appmap-java"
+  },
+  "recorder": {
+    "name": "junit",
+    "type": "tests"
+  },
+  "recording": {
+    "defined_class": "com.bezkoder.spring.data.cassandra.SpringBootDataCassandraApplicationTests",
+    "method_id": "contextLoads"
+  },
+  "source_location": "com/bezkoder/spring/data/cassandra/SpringBootDataCassandraApplicationTests.java:11",
+  "framework": {},
+  "test_status": "succeeded"
+}

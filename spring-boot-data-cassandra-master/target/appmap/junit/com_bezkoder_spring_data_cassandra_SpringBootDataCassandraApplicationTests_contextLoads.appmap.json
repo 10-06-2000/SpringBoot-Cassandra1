@@ -1,0 +1,95 @@
+{
+  "events": [
+    {
+      "defined_class": "com.bezkoder.spring.data.cassandra.SpringBootDataCassandraApplicationTests",
+      "event": "call",
+      "id": 1,
+      "lineno": 11,
+      "method_id": "contextLoads",
+      "path": "com/bezkoder/spring/data/cassandra/SpringBootDataCassandraApplicationTests.java",
+      "receiver": {
+        "class": "com.bezkoder.spring.data.cassandra.SpringBootDataCassandraApplicationTests",
+        "object_id": 964954502,
+        "value": "com.bezkoder.spring.data.cassandra.SpringBootDataCassandraApplicationTests@39840986"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.00009993,
+      "event": "return",
+      "id": 2,
+      "parent_id": 1,
+      "thread_id": 1
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "name": "Spring boot data cassandra applications context loads",
+    "app": "spring-boot-data-cassandra-master",
+    "language": {
+      "name": "java",
+      "version": "17.0.6+9-LTS-190",
+      "engine": "Java HotSpot(TM) 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "junit",
+      "type": "tests"
+    },
+    "recording": {
+      "defined_class": "com.bezkoder.spring.data.cassandra.SpringBootDataCassandraApplicationTests",
+      "method_id": "contextLoads"
+    },
+    "source_location": "com/bezkoder/spring/data/cassandra/SpringBootDataCassandraApplicationTests.java:11",
+    "framework": {},
+    "test_status": "succeeded"
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "name": "contextLoads",
+                              "type": "function",
+                              "static": false,
+                              "location": "com/bezkoder/spring/data/cassandra/SpringBootDataCassandraApplicationTests.java:11"
+                            }
+                          ],
+                          "name": "SpringBootDataCassandraApplicationTests",
+                          "type": "class"
+                        }
+                      ],
+                      "name": "cassandra",
+                      "type": "package"
+                    }
+                  ],
+                  "name": "data",
+                  "type": "package"
+                }
+              ],
+              "name": "spring",
+              "type": "package"
+            }
+          ],
+          "name": "bezkoder",
+          "type": "package"
+        }
+      ],
+      "name": "com",
+      "type": "package"
+    }
+  ]
+}

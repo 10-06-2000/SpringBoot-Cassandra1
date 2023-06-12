@@ -1,0 +1,44 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "name": "contextLoads",
+                            "type": "function",
+                            "static": false,
+                            "location": "com/bezkoder/spring/data/cassandra/SpringBootDataCassandraApplicationTests.java:11"
+                          }
+                        ],
+                        "name": "SpringBootDataCassandraApplicationTests",
+                        "type": "class"
+                      }
+                    ],
+                    "name": "cassandra",
+                    "type": "package"
+                  }
+                ],
+                "name": "data",
+                "type": "package"
+              }
+            ],
+            "name": "spring",
+            "type": "package"
+          }
+        ],
+        "name": "bezkoder",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  }
+]

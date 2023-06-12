@@ -1,0 +1,116 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "name": "getAllTutorials",
+                                "type": "function",
+                                "static": false,
+                                "location": "com/bezkoder/spring/data/cassandra/controller/TutorialController.java:37"
+                              },
+                              {
+                                "name": "deleteTutorial",
+                                "type": "function",
+                                "static": false,
+                                "location": "com/bezkoder/spring/data/cassandra/controller/TutorialController.java:93"
+                              },
+                              {
+                                "name": "createTutorial",
+                                "type": "function",
+                                "static": false,
+                                "location": "com/bezkoder/spring/data/cassandra/controller/TutorialController.java:68"
+                              }
+                            ],
+                            "name": "TutorialController",
+                            "type": "class"
+                          }
+                        ],
+                        "name": "controller",
+                        "type": "package"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "name": "setTitle",
+                                "type": "function",
+                                "static": false,
+                                "location": "com/bezkoder/spring/data/cassandra/model/Tutorial.java:41"
+                              },
+                              {
+                                "name": "isPublished",
+                                "type": "function",
+                                "static": false,
+                                "location": "com/bezkoder/spring/data/cassandra/model/Tutorial.java:53"
+                              },
+                              {
+                                "name": "setPublished",
+                                "type": "function",
+                                "static": false,
+                                "location": "com/bezkoder/spring/data/cassandra/model/Tutorial.java:57"
+                              },
+                              {
+                                "name": "setDescription",
+                                "type": "function",
+                                "static": false,
+                                "location": "com/bezkoder/spring/data/cassandra/model/Tutorial.java:49"
+                              }
+                            ],
+                            "name": "Tutorial",
+                            "type": "class"
+                          }
+                        ],
+                        "name": "model",
+                        "type": "package"
+                      }
+                    ],
+                    "name": "cassandra",
+                    "type": "package"
+                  }
+                ],
+                "name": "data",
+                "type": "package"
+              }
+            ],
+            "name": "spring",
+            "type": "package"
+          }
+        ],
+        "name": "bezkoder",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "POST /api/tutorials/"
+      },
+      {
+        "type": "route",
+        "name": "GET /api/tutorials/"
+      },
+      {
+        "type": "route",
+        "name": "DELETE /api/tutorials/{id}"
+      }
+    ]
+  }
+]

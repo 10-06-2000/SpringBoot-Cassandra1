@@ -1,0 +1,17 @@
+[
+  {
+    "route": "DELETE /api/tutorials/{id}",
+    "parameters": "(id)",
+    "status": 204
+  },
+  {
+    "route": "GET /api/tutorials/",
+    "parameters": "()",
+    "status": 200
+  },
+  {
+    "route": "POST /api/tutorials/",
+    "parameters": "()",
+    "status": 201
+  }
+]

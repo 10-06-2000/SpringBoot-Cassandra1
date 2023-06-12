@@ -1,0 +1,3 @@
+name: spring-boot-data-cassandra-master
+packages:
+- path: com.bezkoder.spring.data.cassandra
